@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec multilog t s10000000 n50 /var/log/watch-localhost
