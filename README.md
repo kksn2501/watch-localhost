@@ -20,6 +20,6 @@ export CHECK_INTERVAL=3
 export RETRY_COUNT=3
 export WAIT_AFTER_STOP=3
 export WAIT_AFTER_RESTART=120
-export STOP_COMMAND='STOP COMMAND'
-export START_COMMAND='START COMMAND'
+export STOP_COMMAND='killall -s KILL httpd'
+export START_COMMAND='systemctl start httpd'
 ```
